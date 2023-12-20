@@ -1,5 +1,6 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+    upworkicon,
     car,
     contact,
     css,
@@ -12,6 +13,7 @@ import {
     linkedin,
     mongodb,
     motion,
+    kamula,
     mui,
     nextjs,
     nodejs,
@@ -111,34 +113,32 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Android",
+        company_name: "Upwork",
+        icon: upworkicon,
+        iconBg: "#36f0b5",
+        date: "March 2018 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "I have contributed to application development activities including bug fixing, writing unit-tests for code robustness, including edge cases, usability, and general reliability according to clients specifications.",
+            "Maintained and improved product quality by collaborating with other developers as well as non-developers across the world to deliver projects.",
+            "Prepared documentation, reports, and results based on the process of the test plan, mapping"
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "ReactJS",
+        company_name: "Upwork",
+        icon: upworkicon,
+        iconBg: "#36f0b5",
+        date: "March 2018 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "I have contributed to application development activities including bug fixing, writing unit-tests for code robustness, including edge cases, usability, and general reliability according to clients specifications.",
+            "Maintained and improved product quality by collaborating with other developers as well as non-developers across the world to deliver projects.",
+            "Prepared documentation, reports, and results based on the process of the test plan, mapping"
         ],
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
+        company_name: "The Fit Club",
         icon: shopify,
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",
@@ -150,11 +150,24 @@ export const experiences = [
         ],
     },
     {
+        title: "Android / Web Development",
+        company_name: "Kamulah Tv/Radio",
+        icon: kamula,
+        iconBg: "#fbc3bc",
+        date: "Feb 2023 - April 2023",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
         title: "Full stack Developer",
-        company_name: "Meta",
+        company_name: "Learn Tech",
         icon: meta,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Dec 2023 - Dec 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -186,22 +199,22 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Hendry Shoe Line',
+        description: 'Developed a ecommerce web application for hendry shoe for their advertising of their product.',
+        link: 'https://hendry-hike-store.pages.dev/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Learn Tech',
+        description: 'Designed a simple website for Learn Tech an online institution offering programming programmes.',
+        link: 'https://learn-tech.pages.dev/',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        description: 'Designed a simple website for looking for cars for hire.',
         link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
     },
     {
@@ -221,8 +234,8 @@ export const projects = [
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'The Fit Club',
+        description: 'App that advertises gym products.',
+        link: 'https://11c3255d.fitclub-2vk.pages.dev/',
     }
 ];

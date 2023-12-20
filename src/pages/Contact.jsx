@@ -26,9 +26,9 @@ const Contact = () => {
       import.meta.env.VITE_APP_EMAILJS_TEMPLATE,
       {
         from_name: form.name,
-        
+        to_name: 'Job',
         from_email: form.email,
-        
+        to_email: 'jobkilonzo95@gmail.com',
         message: form.message
       },
       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
@@ -43,6 +43,7 @@ const Contact = () => {
      
 
     }).catch((error) => {
+      console.log(error)
       showAlert({show:true, text: 'I didnt receive your message', type: 'danger'})
       setIsLoading(false)
       setCurrentAnimation('idle')
@@ -54,10 +55,10 @@ const Contact = () => {
     <section className='relative flex lg:flex-row flex-col max-container'>
 
       {alert.true && <Alert {...alert} />}
-     
+      
       <div className='flex-1 min-w-[50%] flex flex-col'>
         <h1 className='head-text'>Get in Touch</h1>
-        <form onSubmit={handleSubmit} className='w-fill flex flex-col gap-7 mt-14'>
+        <form ref={formRef} onSubmit={handleSubmit} className='w-fill flex flex-col gap-7 mt-14'>
           <label className='text-black-500 font-semibold'>
             <input type="text"
               name='name'

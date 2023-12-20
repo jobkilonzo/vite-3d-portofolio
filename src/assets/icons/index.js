@@ -26,8 +26,11 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import upworkicon from './upworkicon.svg'
+import kamula from './kamula.svg'
 
 export {
+    kamula,
     css,
     express,
     git,
@@ -55,5 +58,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    upworkicon
 }

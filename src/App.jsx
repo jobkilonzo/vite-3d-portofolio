@@ -4,7 +4,7 @@ import Navbar from './component/Navbar'
 import {Home, About, Contact, Projects} from './pages'
 function App() {
   return (
-    <main className="bg-slate-300/20">
+    <main className="bg-slate-300/20 h-full">
       <Router>
         <Navbar />
         <Routes>
