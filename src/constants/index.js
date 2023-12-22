@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, travel_world, tesla } from "../assets/images";
 import {
     upworkicon,
     car,
@@ -161,7 +161,20 @@ export const experiences = [
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
-    },
+    } ,
+    {
+        title: "Full stack Developer",
+        company_name: "Travel World",
+        icon: travel_world,
+        iconBg: "#faa935",
+        date: "Feb 2023 - April 2023",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },  
     {
         title: "Full stack Developer",
         company_name: "Learn Tech",
@@ -197,11 +210,11 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: summiz,
         theme: 'btn-back-red',
-        name: 'Hendry Shoe Line',
-        description: 'Developed a ecommerce web application for hendry shoe for their advertising of their product.',
-        link: 'https://hendry-hike-store.pages.dev/',
+        name: 'The Fit Club',
+        description: 'App that advertises gym products.',
+        link: 'https://11c3255d.fitclub-2vk.pages.dev/',
     },
     {
         iconUrl: threads,
@@ -211,31 +224,20 @@ export const projects = [
         link: 'https://learn-tech.pages.dev/',
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed a simple website for looking for cars for hire.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Hendry Shoe Line',
+        description: 'Developed a ecommerce web application for hendry shoe for their advertising of their product.',
+        link: 'https://hendry-hike-store.pages.dev/',
     },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
+    
+    
     {
         iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'The Fit Club',
-        description: 'App that advertises gym products.',
-        link: 'https://11c3255d.fitclub-2vk.pages.dev/',
-    }
+        name: 'Travel world',
+        description: 'Developed a web application for hotel listings, facilitating hotel searches across the world and connecting travellers with different hotels.',
+        link: 'https://travel-world.pages.dev/home',
+    },
+    
 ];

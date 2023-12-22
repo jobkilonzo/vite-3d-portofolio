@@ -27,7 +27,7 @@ const Projects = () => {
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
             </div>
-           {/* <div className='mt-5 flex items-center gap-2 font-poppins'>
+           <div className='mt-5 flex items-center gap-2 font-poppins'>
            <Link to={project.link}
             target='_black'
             rel='noopener noreferrer'
@@ -36,7 +36,7 @@ const Projects = () => {
           
             </Link>
             <img src={arrow} alt="" className='w-4 h-4 object-contain' />
-           </div> */}
+           </div>
           </div>
         ))}
       </div>
