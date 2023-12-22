@@ -131,8 +131,8 @@ export const experiences = [
         iconBg: "#36f0b5",
         date: "March 2018 - Present",
         points: [
-            "I have contributed to application development activities including bug fixing, writing unit-tests for code robustness, including edge cases, usability, and general reliability according to clients specifications.",
-            "Maintained and improved product quality by collaborating with other developers as well as non-developers across the world to deliver projects.",
+            "I have contributed to website application development activities including bug fixing, writing unit-tests for code robustness, including edge cases, usability, and general reliability according to clients specifications.",
+            "Project review, addition of technologies like ThreeJs, Tailwind CSS, GSAP, React Typed, 3D development while following best practices.",
             "Prepared documentation, reports, and results based on the process of the test plan, mapping"
         ],
     },
@@ -157,9 +157,9 @@ export const experiences = [
         date: "Feb 2023 - April 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Integration of radio api to website and android app.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            ,
         ],
     } ,
     {
@@ -167,12 +167,11 @@ export const experiences = [
         company_name: "Travel World",
         icon: travel_world,
         iconBg: "#faa935",
-        date: "Feb 2023 - April 2023",
+        date: "October 2023 - November 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Participating in code reviews and providing constructive feedback to owners.",
         ],
     },  
     {
@@ -183,9 +182,8 @@ export const experiences = [
         date: "Dec 2023 - Dec 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Became co-owner and also tutor.",
         ],
     },
 ];
@@ -213,7 +211,7 @@ export const projects = [
         iconUrl: summiz,
         theme: 'btn-back-red',
         name: 'The Fit Club',
-        description: 'App that advertises gym products.',
+        description: 'This is a simple wibsite that advertises gym and gym products.',
         link: 'https://11c3255d.fitclub-2vk.pages.dev/',
     },
     {

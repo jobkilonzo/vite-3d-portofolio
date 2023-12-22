@@ -38,6 +38,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
     lastX.current = clientX
 
     rotationSpeed.current = delta * 0.01 * Math.PI
+    //islandRef.current.rotation.y += 0.01 * Math.PI
   }
   const handlePointerMove = (e) => {
     e.stopPropagation

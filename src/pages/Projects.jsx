@@ -8,7 +8,7 @@ const Projects = () => {
     <section className='max-container'>
       <h1 className='head-text'>My <span className='t font-semibold drop-shadow-sm'>Projects</span></h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Some projects that I designed solo.</p>
+        <p>Some projects that I designed.</p>
       </div>
       <div className='flex flex-wrap my-20 gap-16'>
         {projects.map((project) => (
