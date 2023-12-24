@@ -1,7 +1,6 @@
-import { meta, shopify, travel_world, tesla } from "../assets/images";
+import { meta, shopify, travel_world, custom_hirt } from "../assets/images";
 import {
     upworkicon,
-    car,
     contact,
     css,
     estate,
@@ -169,7 +168,7 @@ export const experiences = [
         iconBg: "#faa935",
         date: "October 2023 - November 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React.js, NodeJS and other related technologies.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to owners.",
         ],
@@ -197,39 +196,23 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/jobkilonzo',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/job-kilonzo-8a1276106',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: summiz,
+        iconUrl: custom_hirt,
         theme: 'btn-back-red',
-        name: 'The Fit Club',
-        description: 'This is a simple wibsite that advertises gym and gym products.',
-        link: 'https://11c3255d.fitclub-2vk.pages.dev/',
+        name: 'Custom Shirt(AI  project)',
+        description: 'This is a 3D AI project developed using reactjs, nodejs, threejs, reactjs-motion. It enables the user to customize the color and logo of shirt using AI.',
+        link: 'https://custom-shirt.pages.dev/',
     },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Learn Tech',
-        description: 'Designed a simple website for Learn Tech an online institution offering programming programmes.',
-        link: 'https://learn-tech.pages.dev/',
-    },
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Hendry Shoe Line',
-        description: 'Developed a ecommerce web application for hendry shoe for their advertising of their product.',
-        link: 'https://hendry-hike-store.pages.dev/',
-    },
-    
-    
     {
         iconUrl: estate,
         theme: 'btn-back-yellow',
@@ -237,5 +220,30 @@ export const projects = [
         description: 'Developed a web application for hotel listings, facilitating hotel searches across the world and connecting travellers with different hotels.',
         link: 'https://travel-world.pages.dev/home',
     },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-red',
+        name: 'The Fit Club',
+        description: 'This is a simple website that advertises gym and gym products.',
+        link: 'https://11c3255d.fitclub-2vk.pages.dev/',
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Learn Tech',
+        description: 'Designed a simple website for Learn Tech an online institution offering coding classes. It shows different packages the school is offering',
+        link: 'https://learn-tech.pages.dev/',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Hendry Shoe Line',
+        description: 'Developed ecommerce web application for hendry shoe line. The Website is used to advertise new nike shoes as well as showing their prices',
+        link: 'https://hendry-hike-store.pages.dev/',
+    },
+    
+    
+    
+    
     
 ];

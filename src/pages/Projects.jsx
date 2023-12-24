@@ -8,11 +8,11 @@ const Projects = () => {
     <section className='max-container'>
       <h1 className='head-text'>My <span className='t font-semibold drop-shadow-sm'>Projects</span></h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Some projects that I designed.</p>
+        <p>I've embarked on numerous projects throughout the years, but these are the ones I hold closest to my heart.</p>
       </div>
       <div className='flex flex-wrap my-20 gap-16'>
-        {projects.map((project) => (
-          <div className='lg:w-[400px] w-full' key={project.name}>
+        {projects.map((project, index) => (
+          <div className='lg:w-[400px] w-full' key={`${project.name}${index}`}>
             <div className='block-container w-12 h-12'>
               <div className={`btn-back rounded-xl ${project.theme}`}/>
               <div className='btn-front rounde-xl flex justify-center items-center'>
