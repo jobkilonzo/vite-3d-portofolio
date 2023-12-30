@@ -245,7 +245,7 @@ export const projects = [
         iconUrl: pricewise,
         theme: 'btn-back-yellow',
         name: 'Car Hire',
-        description: 'This is a car hire site where potential customers can such the car they like. You can search by Make, Type of combution and the Year they were manufactured.',
+        description: 'This is a car hire site where potential customers can search the car they like. You can search by Make, Type of combution and the Year they were manufactured.',
         link: 'https://showcase-car-three.vercel.app/',
     },
     
