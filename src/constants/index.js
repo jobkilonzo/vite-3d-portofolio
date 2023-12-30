@@ -241,6 +241,13 @@ export const projects = [
         description: 'Developed ecommerce web application for hendry shoe line. The Website is used to advertise new nike shoes as well as showing their prices',
         link: 'https://hendry-hike-store.pages.dev/',
     },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-yellow',
+        name: 'Car Hire',
+        description: 'This is a car hire site where potential customers can such the car they like. You can search by Make, Type of combution and the Year they were manufactured.',
+        link: 'https://showcase-car-three.vercel.app/',
+    },
     
     
     
