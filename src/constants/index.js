@@ -248,7 +248,13 @@ export const projects = [
         description: 'This is a car hire site where potential customers can search the car they like. You can search by Make, Type of combution and the Year they were manufactured.',
         link: 'https://showcase-car-three.vercel.app/',
     },
-    
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Income Expense Track App',
+        description: 'Designed a simple income/expense track website using vuejs',
+        link: 'https://income-expense-app.pages.dev/',
+    },
     
     
     
