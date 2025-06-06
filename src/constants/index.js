@@ -209,6 +209,13 @@ export const projects = [
     {
         iconUrl: custom_hirt,
         theme: 'btn-back-red',
+        name: 'Movie app',
+        description: 'Find Movies Your\'ll Enjoy Without the Hassle.',
+        link: 'https://movie-eo2.pages.dev/',
+    },
+    {
+        iconUrl: custom_hirt,
+        theme: 'btn-back-red',
         name: 'Custom Shirt(AI  project)',
         description: 'This is a 3D AI project developed using reactjs, nodejs, threejs, reactjs-motion. It enables the user to customize the color and logo of shirt using AI.',
         link: 'https://custom-shirt.pages.dev/',
